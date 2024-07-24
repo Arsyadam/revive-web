@@ -6,11 +6,11 @@ import { Disclosure } from "@headlessui/react";
 
 export const Navbar = () => {
   const navigation = [
-    "Product",
-    "Features",
+    "Tukar Poin",
+    "Aplikasi",
     "Pricing",
-    "Company",
-    "Blog",
+    "Mitra",
+    "CSR",
   ];
 
   return (
@@ -29,10 +29,10 @@ export const Navbar = () => {
                         alt="N"
                         width="32"
                         height="32"
-                        className="w-8"
+                        className="w-8 rounded-md"
                       />
                     </span>
-                    <span>Nextly</span>
+                    <span className="font-semibold">Revive</span>
                   </span>
                 </Link>
 
@@ -67,7 +67,7 @@ export const Navbar = () => {
                       </Link>
                     ))}
                     <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-primary rounded-md lg:ml-5">         
-                        Get Started
+                        Download
                     </Link>
                   </>
                 </Disclosure.Panel>
@@ -91,7 +91,7 @@ export const Navbar = () => {
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <Link href="/" className="px-6 py-2 text-white bg-primary rounded-md md:ml-5">
-              Get Started
+              Download App
           </Link>
 
           <ThemeChanger />

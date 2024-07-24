@@ -26,7 +26,7 @@ export const Hero = () => {
                 Download for Free
               </a>
               <a
-                href="https://github.com/web3templates/nextly-template/"
+                href="https://github.com/web3templates/revive-web/"
                 target="_blank"
                 rel="noopener"
                 className="flex items-center space-x-2 text-gray-500 dark:text-gray-400">
@@ -50,8 +50,6 @@ export const Hero = () => {
           <div className="">
             <Image
               src={heroImg}
-              width="616"
-              height="617"
               className={"object-cover"}
               alt="Hero Illustration"
               loading="eager"
