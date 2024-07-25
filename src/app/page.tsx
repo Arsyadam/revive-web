@@ -33,7 +33,7 @@ export default function Home() {
 
       <Video videoId="fZ0D0cnR88E" />
 
-      <SectionTitle
+      {/* <SectionTitle
         preTitle="Testimonials"
         title="Here's what our customers said"
       >
@@ -48,7 +48,7 @@ export default function Home() {
         conversion rate as well as support or chat requests.
       </SectionTitle>
 
-      <Faq />
+      <Faq /> */}
       <Cta />
     </Container>
   );

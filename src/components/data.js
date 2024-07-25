@@ -51,5 +51,23 @@ const benefitTwo = {
   ],
 };
 
+const data = {
+  title: "Cara Instal",
+  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  image: benefitTwoImg,
+  bullets: [
+    {
+      title: "Kerja Sama Perusahaan CSR",
+      desc: "Kembangkan Brand Awareness Perusahaan dalam Mendukung Sustainablity",
+      icon: <DevicePhoneMobileIcon />,
+    },
+    {
+      title: "Mitra Daur Ulang",
+      desc: "Dapatkan Kain sesuai kebutuhan, dan pasarkan produkmu lebih jauh",
+      icon: <AdjustmentsHorizontalIcon />,
+    },
+  ],
+};
+
 
 export {benefitTwo, benefitOne };

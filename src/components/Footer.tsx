@@ -4,8 +4,8 @@ import React from "react";
 import { Container } from "@/components/Container";
 
 export function Footer() {
-  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
-  const legal = ["Terms", "Privacy", "Legal"];
+  const navigation = ["Tukar Poin", "Aplikasi", "Mitra", "CSR"];
+  const legal = ["work@thenextway.tech", "+62 822 4567 6151", "Legal"];
   return (
     <div className="relative">
       <Container>
@@ -24,14 +24,12 @@ export function Footer() {
                   height="32"
                   className="w-8"
                 />
-                <span>Nextly</span>
+                <span>Revive</span>
               </Link>
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Nextly is a free landing page & marketing website template for
-              startups and indie projects. Its built with Next.js & TailwindCSS.
-              And its completely open-source.
+              Revive adalah 
             </div>
 
             <div className="mt-5">
@@ -42,7 +40,7 @@ export function Footer() {
                 className="relative block w-44"
               >
                 <Image
-                  src="/img/vercel.svg"
+                  src="/img/vercel.svg" 
                   alt="Powered by Vercel"
                   width="212"
                   height="44"
@@ -80,31 +78,16 @@ export function Footer() {
           <div className="">
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
+              
               <a
-                href="https://twitter.com/web3templates"
-                target="_blank"
-                rel="noopener"
-              >
-                <span className="sr-only">Twitter</span>
-                <Twitter />
-              </a>
-              <a
-                href="https://facebook.com/web3templates"
-                target="_blank"
-                rel="noopener"
-              >
-                <span className="sr-only">Facebook</span>
-                <Facebook />
-              </a>
-              <a
-                href="https://instagram.com/web3templates"
+                href="https://instagram.com/revive.refashion"
                 target="_blank"
                 rel="noopener"
               >
                 <span className="sr-only">Instagram</span>
                 <Instagram />
               </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener">
+              <a href="https://linkedin.com/in/TheNextWay" target="_blank" rel="noopener">
                 <span className="sr-only">Linkedin</span>
                 <Linkedin />
               </a>
@@ -113,18 +96,12 @@ export function Footer() {
         </div>
 
         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
-          Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
-          <a href="https://web3templates.com/" target="_blank" rel="noopener">
-            Web3Templates.
-          </a>{" "}
-          Illustrations from{" "}
-          <a href="https://www.glazestock.com/" target="_blank" rel="noopener ">
-            Glazestock
+          Copyright © {new Date().getFullYear()}. Made with ♥ by
+          <a href="/" target="_blank" rel="noopener">
+            TheNextWay.
           </a>
         </div>
       </Container>
-      {/* Do not remove this */}
-      <Backlink />
     </div>
   );
 }
@@ -176,30 +153,3 @@ const Linkedin = ({ size = 24 }) => (
   </svg>
 );
 
-const Backlink = () => {
-  return (
-    <a
-      href="https://web3templates.com"
-      target="_blank"
-      rel="noopener"
-      className="absolute flex px-3 py-1 space-x-2 text-sm font-semibold text-gray-900 bg-white border border-gray-300 rounded shadow-sm place-items-center left-5 bottom-5 dark:bg-trueGray-900 dark:border-trueGray-700 dark:text-trueGray-300"
-    >
-      <svg
-        width="20"
-        height="20"
-        viewBox="0 0 30 30"
-        fill="none"
-        className="w-4 h-4"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="30" height="29.5385" rx="2.76923" fill="#362F78" />
-        <path
-          d="M10.14 21.94H12.24L15.44 12.18L18.64 21.94H20.74L24.88 8H22.64L19.58 18.68L16.36 8.78H14.52L11.32 18.68L8.24 8H6L10.14 21.94Z"
-          fill="#F7FAFC"
-        />
-      </svg>
-
-      <span>Web3Templates</span>
-    </a>
-  );
-};
