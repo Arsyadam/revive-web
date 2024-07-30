@@ -16,9 +16,7 @@ export default function Home() {
         preTitle="Revive Benefits"
         title="Dukung Sustainable Fashion dengan Mitra Kami"
       >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        Revive adalah inisiatif yang bertujuan untuk mendukung industri fashion yang berkelanjutan melalui teknologi canggih dan kemitraan strategis
       </SectionTitle>
 
       <Benefits data={benefitOne} />

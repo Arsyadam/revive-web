@@ -15,7 +15,7 @@ import { ArrowDownIcon } from "@heroicons/react/16/solid";
 import Link from "next/link";
 const data = {
   title: "Cara Installasi Aplikasi",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  desc: "Ikuti step step yang tersedia pada device anda",
   bullets: [
     {
       title: "Klik File",

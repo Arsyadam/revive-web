@@ -12,7 +12,7 @@ import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
   title: "Yuk Setor Pakaian Bekasmu di TSM Revive",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  desc: "Dengan sistem TSM Revive yang canggih, pakaian bekas Anda bisa mendapatkan kehidupan baru dan membantu mengurangi dampak negatif industri fashion terhadap lingkungan",
   image: benefitOneImg,
   bullets: [
     {
@@ -22,7 +22,7 @@ const benefitOne = {
     },
     {
       title: "Cegah penumpukan/pembakaran di TPA",
-      desc: "Here you can add the next benefit point.",
+      desc: "Stop buang ke tempat sampah lebih banyak",
       icon: <ChartBarSquareIcon />,
     },
     {
@@ -35,7 +35,7 @@ const benefitOne = {
 
 const benefitTwo = {
   title: "Ajakan Kerja sama dengan Mitra dan CSR",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  desc: "Revive mengundang perusahaan dan organisasi untuk berkolaborasi dalam upaya menciptakan industri fashion yang lebih berkelanjutan melalui program Corporate Social Responsibility (CSR) dan kemitraan strategis. ",
   image: benefitTwoImg,
   bullets: [
     {
@@ -51,23 +51,5 @@ const benefitTwo = {
   ],
 };
 
-const data = {
-  title: "Cara Instal",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
-  image: benefitTwoImg,
-  bullets: [
-    {
-      title: "Kerja Sama Perusahaan CSR",
-      desc: "Kembangkan Brand Awareness Perusahaan dalam Mendukung Sustainablity",
-      icon: <DevicePhoneMobileIcon />,
-    },
-    {
-      title: "Mitra Daur Ulang",
-      desc: "Dapatkan Kain sesuai kebutuhan, dan pasarkan produkmu lebih jauh",
-      icon: <AdjustmentsHorizontalIcon />,
-    },
-  ],
-};
-
-
+  
 export {benefitTwo, benefitOne };
