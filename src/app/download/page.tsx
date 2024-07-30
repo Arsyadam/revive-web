@@ -11,6 +11,8 @@ import { benefitOne, benefitTwo } from "@/components/data";
 import React from "react";
 import DevicePhoneMobileIcon from "@heroicons/react/24/outline/esm/DevicePhoneMobileIcon";
 import AdjustmentsHorizontalIcon from "@heroicons/react/24/solid/esm/AdjustmentsHorizontalIcon";
+import { ArrowDownIcon } from "@heroicons/react/16/solid";
+import Link from "next/link";
 const data = {
   title: "Cara Installasi Aplikasi",
   desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
@@ -31,15 +33,34 @@ export default function Home() {
   return (
     <Container>
       <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
-        <div
-          className={`flex items-center justify-center w-full lg:w-1/2 `}>
-          <div>
-            {/* Tempat untuk download */}
+        <div className={`flex items-center justify-center w-full lg:w-1/2 `}>
+          <div className="border-solid border-[1px] p-5 rounded-xl border-primary ">
+          <table className="table-fixed">
+  <thead className="text-left">
+    <tr>
+      <th className="w-32 ">Versi App</th>
+      <th className="w-32">Platform</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>v.1.0.0 (Beta)</td>
+      <td>Android</td>
+      <td>
+        <a  href="/img/logo.svg" download  className="flex items-center justify-center flex-shrink-0 mt-1 text-primary hover:bg-primary hover:text-white focus:border-5 focus:border-green-300  border-2 border-primary rounded-md w-11 h-11">
+          <ArrowDownIcon className="w-5" />
+        </a>
+        </td>
+    </tr>
+  </tbody>
+</table>
           </div>
         </div>
 
         <div
-          className={`flex flex-wrap items-center w-full lg:w-1/2 lg:justify-end`}>
+          className={`flex flex-wrap items-center w-full lg:w-1/2 lg:justify-end`}
+        >
           <div>
             <div className="flex flex-col w-full mt-4">
               <h3 className="max-w-2xl mt-3 text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:leading-tight lg:text-4xl dark:text-white">
@@ -61,7 +82,6 @@ export default function Home() {
           </div>
         </div>
       </Container>
-
     </Container>
   );
   function Benefit(props: any) {

@@ -29,7 +29,7 @@ export function Footer() {
             </div>
 
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
-              Revive adalah 
+            Sebuah ekosistem menejamen limbah untuk menghubungkan para kontributor limbah tekstil dengan UMKM serta komunitas yang bergerak di bidang fesyen daur ulang
             </div>
 
             <div className="mt-5">
