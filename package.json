@@ -1,7 +1,7 @@
 {
   "name": "revive-web",
   "version": "2.0.0",
-  "description": "Nextly Landing Page Template",
+  "description": "Revive",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -23,10 +23,12 @@
   "dependencies": {
     "@headlessui/react": "^2.0.3",
     "@heroicons/react": "^2.1.3",
+    "@react-pdf-viewer/core": "^3.12.0",
     "install": "^0.13.0",
     "next": "14.2.3",
     "next-themes": "^0.3.0",
     "npm": "^10.8.2",
+    "pdfjs-dist": "^3.4.120",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.51.4",
