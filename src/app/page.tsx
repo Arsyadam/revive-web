@@ -29,7 +29,7 @@ export default function Home() {
         Pahami lebih dekat bagaimana ekonomi sirkular di dalam ekosistem kami bekerja
       </SectionTitle>
 
-      <Video videoId="fZ0D0cnR88E" />
+      <Video videoId="jhnwJMgY6eM" />
 
       {/* <SectionTitle
         preTitle="Testimonials"
