@@ -20,14 +20,14 @@ export const Hero = () => {
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
-                href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
+                href="/download"
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-primary rounded-md ">
                 Download for Free
               </a>
               <a
-                href="https://github.com/web3templates/revive-web/"
+                href="https://github.com/thenextway/"
                 target="_blank"
                 rel="noopener"
                 className="flex items-center space-x-2 text-gray-500 dark:text-gray-400">
@@ -62,8 +62,7 @@ export const Hero = () => {
       <Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
-            Trusted by <span className="text-primary">2000+</span>{" "}
-            customers worldwide
+            Mitra Kerjasama Kami
           </div>
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">

@@ -19,12 +19,12 @@ const data = {
   bullets: [
     {
       title: "Klik File",
-      desc: "Kembangkan Brand Awareness Perusahaan dalam Mendukung Sustainablity",
+      desc: "Klik file yang telah di download pada device anda",
       icon: <DevicePhoneMobileIcon />,
     },
     {
       title: "Tekan Setuju",
-      desc: "Dapatkan Kain sesuai kebutuhan, dan pasarkan produkmu lebih jauh",
+      desc: "Tekan tombol setuju untuk melanjutkan proses instalasi",
       icon: <AdjustmentsHorizontalIcon />,
     },
   ],
@@ -48,7 +48,7 @@ export default function Home() {
       <td>v.1.0.0 (Beta)</td>
       <td>Android</td>
       <td>
-        <a  href="/img/logo.svg" download  className="flex items-center justify-center flex-shrink-0 mt-1 text-primary hover:bg-primary hover:text-white focus:border-5 focus:border-green-300  border-2 border-primary rounded-md w-11 h-11">
+        <a href="https://drive.google.com/drive/folders/1Taaxv23BE5zNDwcwfzAOoKEOshaClq4X?usp=sharing" download  className="flex items-center justify-center flex-shrink-0 mt-1 text-primary hover:bg-primary hover:text-white focus:border-5 focus:border-green-300  border-2 border-primary rounded-md w-11 h-11">
           <ArrowDownIcon className="w-5" />
         </a>
         </td>

@@ -13,6 +13,9 @@ const sans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Revive",
   description: "Ekosistem Limbah Tekstil",
+  icons: {
+    icon: "/img/logo.png",
+  },
 };
 
 export default function RootLayout({
@@ -22,8 +25,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={sans.className}>
+       <link rel="icon" href="/img/logo.png" sizes="any" />
         <ThemeProvider attribute="class">
           <Navbar />
           <div>{children}</div>
