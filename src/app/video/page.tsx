@@ -1,15 +1,17 @@
+"use client"; // Mark this component as a Client Component
+
 import { useEffect } from 'react';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation'; // Use from 'next/navigation' in the App Router
 
 const Video = () => {
   const router = useRouter();
 
   useEffect(() => {
-    // Perform redirect after some logic
+    // Redirect to external URL
     router.push('https://youtu.be/lrOmPZI_DIo');
   }, [router]);
 
-  return <p>Redirecting...</p>;
+  return <p>Redirecting...</p>; // Optional message during redirection
 };
 
 export default Video;
