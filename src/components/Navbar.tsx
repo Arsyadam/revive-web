@@ -8,7 +8,7 @@ export const Navbar = () => {
   const navigation = [
     {
       title: "Tukar Poin",
-      slug: "https://wa.me/6282245676151"
+      slug: "https://wa.me/6285142296088"
     },
     {
       title: "Aplikasi",
@@ -16,15 +16,15 @@ export const Navbar = () => {
     },
     {
       title: "Mitra",
-      slug: "https://wa.me/6282245676151"
+      slug: "https://wa.me/6285142296088"
     },
     {
       title: "CSR",
-      slug: "https://wa.me/6282245676151"
+      slug: "https://wa.me/6285142296088"
     },
     {
       title: "Kontak",
-      slug: "https://wa.me/6282245676151"
+      slug: "https://wa.me/6285142296088"
     }
   ];
 

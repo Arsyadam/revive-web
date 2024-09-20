@@ -9,7 +9,7 @@ export function Footer() {
   const legal = [{
                   title:"work@thenextway.tech",
                   url:"mailto:work@thenextway.tech"},
-                  {title: "+62 822 4567 6151",url:"https://wa.me/6282245676151"}];
+                  {title: "+62 822 4567 6151",url:"https://wa.me/6285142296088"}];
   return (
     <div className="relative">
       <Container>
