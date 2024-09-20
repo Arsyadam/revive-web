@@ -45,10 +45,10 @@ export default function Home() {
   </thead>
   <tbody>
     <tr>
-      <td>v.1.0.0 (Beta)</td>
+      <td>v.0.0.1 (Alpha)</td>
       <td>Android</td>
       <td>
-        <a href="https://drive.google.com/drive/folders/1Taaxv23BE5zNDwcwfzAOoKEOshaClq4X?usp=sharing" download  className="flex items-center justify-center flex-shrink-0 mt-1 text-primary hover:bg-primary hover:text-white focus:border-5 focus:border-green-300  border-2 border-primary rounded-md w-11 h-11">
+        <a href="https://drive.google.com/drive/folders/1Taaxv23BE5zNDwcwfzAOoKEOshaClq4X?usp=sharing" className="flex items-center justify-center flex-shrink-0 mt-1 text-primary hover:bg-primary hover:text-white focus:border-5 focus:border-green-300  border-2 border-primary rounded-md w-11 h-11">
           <ArrowDownIcon className="w-5" />
         </a>
         </td>
